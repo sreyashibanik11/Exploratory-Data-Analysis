@@ -17,7 +17,7 @@ This file contains a data frame with all of the PM2.5 emissions data for 1999, 2
 ### 2. Source Classification Code Table (Source_Classification_Code.rds): 
 This table provides a mapping from the SCC digit strings in the Emissions table to the actual name of the PM2.5 source. The sources are categorized in a few different ways from more general to more specific and you may choose to explore whatever categories you think are most useful. For example, source “10100101” is known as “Ext Comb /Electric Gen /Anthracite Coal /Pulverized Coal”.
 
-##Questions
+### Questions
 The plots addresses the following questions and tasks in exploratory analysis. For each question/task there is a single plot.
 1.	Have total emissions from PM2.5 decreased in the United States from 1999 to 2008?
 2.	Have total emissions from PM2.5 decreased in the Baltimore City, Maryland (fips=="24510") from 1999 to 2008?
