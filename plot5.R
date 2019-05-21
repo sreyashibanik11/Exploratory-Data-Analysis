@@ -23,7 +23,7 @@ df<-data.frame(Emissions=newNEI$Emissions,Year=factor(newNEI$year),na.rm=TRUE)
 
 ## Plotting the graph in a png file
 png(filename = "plot5.png",width=600,height=480,units = "px")
-g<-ggplot(df) +geom_col(aes(x=Year,y=Emissions,fill=Year),na.rm = TRUE)+labs(x="Year", y=expression("Total PM2.5 Emission (in Tons)")) +labs(title=expression("PM2.5 Emissions in Baltimore City From Motor Vehicle Sources by Source Type"))
+g<-ggplot(df) +geom_col(aes(x=Year,y=Emissions,fill=Year),na.rm = TRUE)+labs(x="Year", y=expression("Total PM2.5 Emission (in Tons)")) +labs(title=expression("PM2.5 Emissions in Baltimore City From Motor Vehicle Sources"))
 print(g)
 
 ## Closing png device
